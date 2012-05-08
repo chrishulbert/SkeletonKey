@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+	<title>Help</title>
+	<style>
+		* {
+			border: 0;
+			margin: 0;
+			padding: 0;
+		}
+		html {
+			xwidth: 320px;
+			font-family: helvetica;
+		}
+		body {
+			padding: 10px;
+		}
+		h1 {
+			font-size: 20px;
+			margin: .5em 0;
+		}
+		h2 {
+			font-size: 18px;
+			margin: .5em 0;
+		}
+		p {
+			font-size: 16px;
+			margin: .5em 0;
+		}
+		a {
+			color: #000;
+		}
+		pre {
+			margin-left: 20px;
+			padding: 5px;
+			border: 1px dashed #777;
+			text-overflow: auto;
+		}
+	</style>
+</head>
+
+<body id="home">
+
+<h1>Skeleton Key Password Manager with Dropbox</h1>
+
+<p>Are you one of those people who can&rsquo;t keep track of all their zillions of passwords? Are you sick of having to waste time on the I-forgot-my-password dance whenever you visit a website you can&rsquo;t remember your login for? Well, I made this app for people like you, to keep track of all your passwords, and hopefully make your life just a little bit easier.</p>
+
+<p>Skeleton Key helps you keep track of your passwords. All your data is securely encrypted and optionally synced to Dropbox so that you can stay in sync between multiple iDevices. It is reasonably priced - a small cost for the full version with no monthly fees, as opposed to LastPass (monthly fees) and 1Password (high upfront cost). Tested by professional software testers, it is reliable for you to use with confidence.</p>
+
+<p>FREE for the first week, as a gesture of goodwill towards early adopters! If you find that you like this app, please recommend it to friends. The more people download it, the more I&rsquo;ll be able to update it with all your future feature requests (eg Windows / Mac versions).</p>
+
+<p>Your data is secured via a single master password (and optional access PIN for convenience), so that you only ever need to remember one password again. You can organise your items into customizable colour-coded groups to keep things organised just the way you like.</p>
+
+<p>(Warning: technical paragraph alert!) Your data is securely encrypted using industry-standard technologies: your master password is transformed by PBKDF2 to create an AES256 key, which is used to encrypt all your data. Your password/PIN are also hashed with Bcrypt for verification purposes.</p>
+
+<h2>Initial setup</h2>
+
+<p>If you plan on syncing to Dropbox (highly recommended) then the first thing you should do after installing the app is to link to your Dropbox account. To do this, follow the initial prompts, or tap the settings icon (top left, shaped like a cog) and then tap Dropbox. If you&rsquo;ve already got items saved on your Dropbox account from a different install of this app, it will pull them all down and ask you to enter your password.</p>
+
+<p>After you&rsquo;ve synced (or skipped this step, if you decide you won&rsquo;t want to), you then must set a master password. The app will ask you to set a master password automatically the first time you go to add an item, by pressing &lsquo;+&rsquo; on the top-right of the main screen.</p>
+
+<p>If you wish, you can add a PIN so that you won&rsquo;t have to enter the master password every time you open the app. The PIN won&rsquo;t be synced, rather it&rsquo;ll be stored in the device&rsquo;s keychain. This keychain is secured by iOS, however you should be aware that it is technically hackable if your phone falls into the wrong hands. For this reason, I recommend you performing a remote wipe of your phone if you lose it. Using the master password has no known security issues like this.</p>
+
+<h2>How to use</h2>
+
+<p>From the main side of the app, you can see all your different groups represented as tabs at the bottom of the screen. To see the items inside those groups, tap the tab.</p>
+
+<p>To add an item to a group, select that group/tab, and then press &lsquo;+&rsquo; on the top-right of the screen.</p>
+
+<h2>Adding a new item</h2>
+
+<p>When you&rsquo;re presented with the new item details screen, the first thing you want to do is set a name for the item. Tap the &lsquo;name&rsquo; row to do this. The name would eg the name of a website whose password you need to remember.</p>
+
+<p>After you&rsquo;ve set the name, you can fill in the login and password fields as you wish by tapping their rows. You can swipe those rows to delete them if they&rsquo;re not appropriate for this item. You can then tap &lsquo;add new field&rsquo; to add a custom-named field. Tap save to save it, which will immediately attempt to sync the new item to Dropbox.</p>
+
+<h2>Customizing groups</h2>
+
+<p>To customize your groups, first go to the settings page (tap the cog-shaped icon on the top left of the main screen). Then select &lsquo;Groups&rsquo; to go to the groups editor.</p>
+
+<p>To add a new group, tap &lsquo;+&rsquo; on the navigation bar. To delete a group or re-order them, tap &lsquo;edit&rsquo;. To edit one of the groups, tap its name.</p>
+
+<p>If you tap &lsquo;+&rsquo; to add a group, or tap an existing group, you will be taken to the &lsquo;Edit Group&rsquo; screen. From here, you can change the name of the group, change the highlight color for its navigation bar, and change its tab bar icon.</p>
+
+<h2>Dropbox</h2>
+
+<p>Dropbox is a fantastic service for keeping track of your files across multiple computers, devices, etc, which are then accessible anywhere you are. It isn&rsquo;t necessary for this app, but it&rsquo;s highly recommended. <a href="https://www.dropbox.com">Get an account here</a>.</p>
+
+<p>With the settings page, you can link this app to your Dropbox account and synchronize your files to your <code>Dropbox\Apps\SkeletonKey</code> folder. This is also very handy if you wish to share your service history files between two iPhones, or an iPad / iPod touch.</p>
+
+<p>It is recommended that you link this app to Dropbox as the first thing you do when installing the app. Go to settings (top left button) and tap &lsquo;Dropbox&rsquo; to link. All your data is automatically synced as soon as you open the app or make any data changes.</p>
+
+<h2>About</h2>
+
+<p>This app was created by Chris Hulbert from Splinter Software, in Sydney. I really hope you find it useful! Get in touch with any feature requests, or if you need further help: <a href="mailto:chris.hulbert@gmail.com">chris.hulbert@gmail.com</a>.</p>
+
+<h2>Credits</h2>
+
+<ul>
+<li>Texture by <a href="http://subtlepatterns.com">subtle patterns</a></li>
+<li>Design by <a href="http://lauradesign.com.au">Lauradesign</a></li>
+<li><a href="https://github.com/patrickt/yamlkit">YAMLKit</a></li>
+<li><a href="http://www.jayfuerstenberg.com/blog/bcrypt-in-objective-c">JFBCrypt</a></li>
+<li><a href="https://github.com/AlanQuatermain/aqtoolkit">AQToolkit</a></li>
+</ul>
+
+
+</body>
+</html>

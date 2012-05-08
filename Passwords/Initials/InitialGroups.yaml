@@ -1,0 +1,17 @@
+groups:
+    - name: Websites
+      icon: 203-spiderweb
+      id: 951895
+      hue: 210
+    - name: Email
+      icon: 287-at
+      id: 638142
+      hue: 90
+    - name: Wallet
+      icon: 204-wallet
+      id: 791886
+      hue: 30
+    - name: Other
+      icon: 54-lock
+      id: 314823
+      hue: 330

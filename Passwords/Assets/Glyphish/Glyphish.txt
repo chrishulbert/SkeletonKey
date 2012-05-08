@@ -1,0 +1,1 @@
+Glyphish icons go here... Obviously i cannot distribute them as part of an open source library. You'll want to unzip your copy here.
